@@ -1,0 +1,53 @@
+Things we can start now...
+
+
+** There is no need to keep my scuba content! You can make your own content if you wish.
+** My images are all from Unsplash (https://unsplash.com/).
+
+1. Have a look at the images inside the instruction file. This is what it could look like after you've worked on it!
+
+2. There are not many styles on the page right now. Let's start by making it all more legible.
+    2a. Let's increase the size of h1 and h2. The html font size is 16px - so we need to use something bigger than this.
+        E.g. 64px, 48px, 32px.
+    2b. Let's add some padding to the text blocks (look for the class .block--text) to give the content some room to breathe.
+    2c. Add a line-height property to the paragraphs - standard is 1.5 but we can experiment with 1.2, or 2 etc.
+    2d. I've made two classes - text--small and text--large. Add some code to these to make them large and small accordingly.
+        E.g. 12px, 24px.
+        These classes can now be applied anywhere to create large or small text!
+
+3. We want the nav to appear to the right of the H1 in the header - so it all sits in one line.
+    3a. Position the navigation to the right of the header. Remember how we tackled this in the last lesson!
+        - Display?
+        - Float and overflow?
+    3b. You might need to solve issues with the solution you choose.
+
+4. Now that the nav appears to the right of the H1 we need to make the list <li> elements inside the nav to sit in a line.
+    4a. How did we tackle this last time?
+        - Display?
+        - Float and overflow?
+    4b. How does this look? Does the nav need some padding? Do the links need some padding?
+
+5. Now that the header and navigation are sitting nicely together, we can look at the rest of the content.
+
+6. Position the blocks so that the image blocks and text blocks sit next to each other.
+   6a. Remember how we tackled this in the last lesson!
+        - Display?
+        - Float and overflow?
+
+
+
+
+After Wednesday's lesson...
+
+7. The hero has some content inside it. We want to make this beautiful!
+    7a. Use positioning to position the .hero__overlay class so that it fills 100% width and height of the hero.
+    7b. Change the background colour of the overlay using rgba to make the background semi transparent.
+    7c. Position the text inside the hero so that it is centre-aligned, or at least padded away from the edges of the hero.
+
+8. The blocks are looking quite swish by now, but it'd look nicer if we alternated the layout.
+    8a. Without moving HTML elements (CSS only!) reverse the order of the blocks on the 2nd row.
+        This means...
+        -- text / image
+        -- image / text
+        -- text / image
+    8b. Remember when we discussed pseudo-elements / pseudo-classes?

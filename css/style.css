@@ -1,0 +1,151 @@
+/* Main Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #272731;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+/* General Styles */
+header {
+  overflow: auto;
+}
+header h1 {
+  float: left;
+}
+header nav {
+  float: right;
+}
+
+.NavInline {
+  display: inline-block;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #E8ABF7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 48px;
+  padding: 20px;
+
+}
+
+h2 {
+  font-size: 32px;
+
+}
+
+/* Typography */
+p {
+  line-height: 1.5;
+
+}
+
+/* Lists */
+ul {
+}
+
+li {
+
+ display: inline-block;
+ padding: 10px;
+ margin-top: 22px;
+
+}
+
+/* Image Code */
+img {
+  max-width: 100%;
+}
+
+/* Links */
+a {
+  color: #2AEBEB;
+}
+
+a:hover, a:focus {
+  color: #27D1CF;
+}
+
+/* General Styles */
+#hero {
+  background-image: url("../images/diving-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 500px;
+}
+
+.hero--overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.text--large {
+  font-size: 24px;
+  width: 30%;
+}
+
+.text--small {
+  font-size: 12px;
+}
+
+/* Target all blocks */
+main {
+  overflow: auto;
+}
+
+/* Specifically target the text blocks */
+.block--text {
+  overflow: auto;
+  clear: both;
+  padding: 40px;
+  float: left;
+  width: 50%;
+  height: 30%;
+}
+
+/* Specifically target the image blocks */
+.block--image {
+  float: right;
+  width: 50%;
+  height: 10%;
+}
+
+.block--image:before {
+    content:
+}
+
+.block {
+  display: inline-block;
+}
+
+#diving-prep {
+  float: right;
+}
+
+#diving-prep-image {
+  float: left;
+}
+
+footer {
+  padding: 1em;
+  background-color: #ccc;
+  color: #000;
+}
